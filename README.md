@@ -11,6 +11,7 @@ Example:
 JAVA_HOME  = "C:\Users\mojkm\CLionProjects\CursorINI>gcc -I"C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.2\jbr\"
 
 to run
+
 java CursorJNI 
 
 Tool to explore .dll in GUI
