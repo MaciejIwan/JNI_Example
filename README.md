@@ -2,9 +2,11 @@
 Function written in C, for Java. Check if cursor is visible.
 
 To generate header file for C
+
 javac -h . CursorJNI.java
 
 Compile your C code to dll
+
 gcc -I"%JAVA_HOME%\include" -I"%JAVA_HOME%\include\win32" -shared -o cursor.dll CursorJNI.c
 
 Example:
