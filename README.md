@@ -1,5 +1,5 @@
   # JNI_Example
-Function written in C, for Java. Check if cursor is visible.
+Function written in C, for Java. Check if cursor (arrow on screen) is visible.
 
 ## To generate header file for C
     javac -h . CursorJNI.java
