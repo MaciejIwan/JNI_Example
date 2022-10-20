@@ -6,9 +6,10 @@ Function written in C, for Java. Check if cursor (arrow on screen) is visible.
 
 ## Compile your C code to dll
     gcc -I"%JAVA_HOME%\include" -I"%JAVA_HOME%\include\win32" -shared -o cursor.dll CursorJNI.c
+    
     Example:
-    gcc -I"C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.2\jbr\include" -I"C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.2\jbr\include\win32" -shared -o cursor.dll CursorJNI.c
-
+        gcc -I"C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.2\jbr\include" -I"C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.2\jbr\include\win32" -shared -o cursor.dll CursorJNI.c
+        D:\Programs\JetBrains\CLion 2022.1.2\bin\mingw\bin\gcc.exe -I"C:\Program Files\JetBrains\IntelliJ IDEA 2022.1.1\jbr\include" -I"C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.2\jbr\include\win32" -shared -o cursor.dll CursorJNI.c
 ## to run
     java CursorJNI 
 
