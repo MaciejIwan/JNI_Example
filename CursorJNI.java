@@ -14,7 +14,7 @@ public class CursorJNI {
         CursorJNI cursor = new CursorJNI();  // Create an instance and invoke the native method
         while (true) {
             System.out.println(cursor.isVisible());
-            Thread.sleep(50);
+            Thread.sleep(500);
         }
     }
 }
