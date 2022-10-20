@@ -6,6 +6,7 @@ public class CursorJNI {
         // This library contains a native method called isVisible()
     }
 
+
     // Declare an instance native method isVisible() which receives no parameter and returns void
     private native boolean isVisible();
 
